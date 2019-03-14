@@ -7,7 +7,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from '@/components/HelloWorld.ts';
+import HelloWorld from '@/components/home/HelloWorld';
 
 @Component({
   components: {
