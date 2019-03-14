@@ -1,5 +1,9 @@
 # Vue-Typescript - 3 Steps Only!
 
+<div align=center>
+    <img src="public/vue-typescript.png" width="250"/>
+</div>
+
 ### Project setup :
 ```
 npm install -g @vue/cli
