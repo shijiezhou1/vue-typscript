@@ -1,7 +1,7 @@
 import { Component, Vue, Prop } from 'vue-property-decorator';
 import WithRender from './hello-about.html';
 
-const decimal: number = 12;
+const decimal = 100;
 
 @WithRender
 @Component
