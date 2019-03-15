@@ -7,6 +7,8 @@ const decimal: number = 12;
 @Component
 export default class HelloAbout extends Vue {
     public myReamName = 'Jay ' + decimal;
+    public message: number = 0;
+
     // computed
     get MyName(): string {
         return `this is MyName function ${this.myReamName}`;
@@ -16,6 +18,10 @@ export default class HelloAbout extends Vue {
     public sayHi(): void {
         // alert(`Hello ${this.myReamName}`);
         console.log(`Hello ${this.myReamName}`);
+    }
+
+    public submitInput(): void {
+        this.message = 123 * Math.random();
     }
 
     // mounted

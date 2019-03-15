@@ -1,7 +1,9 @@
 <div>
     <h1>This is about Page</h1>
-    <p>Check console log for information</p>
-    <input style="border: 1px solid grey" type="text" />
-    <button style="border: 1px solid grey" type="submit" @click="sayHi">submit</button>
+    <p>Click on button to generate information</p>
+    <input style="border: 1px solid grey" type="text" v-model="message"/>
+    <button style="border: 1px solid grey" type="submit" @click="submitInput">Generate Random Number</button>
+    <br>
+    {{message}}
 </div>
 
