@@ -4,12 +4,12 @@ import WithRender from './hello-world.html';
 @WithRender
 @Component
 export default class HelloWorld extends Vue {
-    public count = 0;
+    public myReamName = 'Jay';
     public msg: string = 'I am using TypeScript classes with Vue!';
 
-    @Prop( {default: 'Example Prop'} )
+    @Prop( {default: '- Prop String'} )
     public newText!: string;
 
-    @Prop( {default: 123 })
+    @Prop( {default: '- Prop Integer' })
     public newNum!: number;
 }
