@@ -1,4 +1,4 @@
-# Vue-Typescript - 3 Steps Only!
+# Vue-Typescript
 
 ## Project setup
 <div align=center>
